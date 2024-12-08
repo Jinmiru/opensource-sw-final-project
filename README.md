@@ -43,33 +43,6 @@
 
 
 
-## 5. Milestones 🤝
-(추가 예정)
-<br><br>
-
-
-
-## 6. Issues 🤝
-### 6-1. Open 상태 Issues
-(추가 예정)
-### 6-2. Closed 상태 Issues
-(추가 예정)
-<br><br>
-
-
-
-## 7. Pull Requests 🤝
-(추가 예정)
-<br><br>
-
-
-
-## 8. Project 보드(칸반 보드) 🤝
-(추가 예정)
-<br><br>
-
-
-
-## 9. Requirements.txt 📰
+## 5. Requirements.txt 📰
 (추가 예정)
 <br><br>
