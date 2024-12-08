@@ -32,17 +32,21 @@ st.markdown(
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .st-emotion-cache-ocqkz7{
         gap:0rem;
     }
+
     .st-emotion-cache-ytkq5y{
         flex:none;
         width: calc(9% - 1rem);
     }
+
     .st-emotion-cache-1r6slb0{
         flex:none;
         width: 50px;
     }
+
     .st-emotion-cache-1ic3z3m{ 
         gap:0rem;
     }
@@ -218,17 +222,19 @@ else:
     # 단축키를 이용한 조작 설정
     with st.container():
         col1, col2, col3 = st.columns(3)
-        with col1:
-            streamlit_shortcuts.button("←", on_click=left_callback, shortcut="Shift+A")
+
         with col2:
             streamlit_shortcuts.button("↑", on_click=up_callback, shortcut="Shift+W")
-        with col3:
-            streamlit_shortcuts.button("→", on_click=right_callback, shortcut="Shift+D")
-
+            
     # 아래쪽 버튼 추가
     col1, col2, col3 = st.columns(3)
+    with col1:
+            streamlit_shortcuts.button("←", on_click=left_callback, shortcut="Shift+A")
     with col2:
         streamlit_shortcuts.button("↓", on_click=down_callback, shortcut="Shift+S")
+    with col3:
+            streamlit_shortcuts.button("→", on_click=right_callback, shortcut="Shift+D")
+
 
     # 게임이 끝났을 때만 'Game Over' 텍스트 표시
     if st.session_state.game_state["game_over"]:
